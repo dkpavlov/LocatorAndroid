@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fmi.android.ViewLocationActivity" >
+
+    <item
+        android:id="@+id/share"
+        android:showAsAction="ifRoom"
+        android:title="Share"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+
+    <!--<item android:id="@+id/share"
+        android:icon="@drawable/share"
+        android:title="Share"
+        android:showAsAction="ifRoom"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" >
+        <menu>
+
+            <item android:id="@+id/sms_share"
+                android:title="@string/sub_menu_sms" />
+
+            <item android:id="@+id/twitter_share"
+                android:title="@string/sub_menu_twitter" />
+
+        </menu>
+
+    </item>-->
+</menu>
